@@ -6,131 +6,131 @@ This project aims to predict the outcome of the 2020 U.S. Presidential Election 
 
 ## Data Collection
 
-**Gather tweets containing hashtags related to each candidate (e.g., #donaldtrump, #joebiden)**
-**Ensure a substantial dataset for robust analysis**
+- **Gather tweets containing hashtags related to each candidate (e.g., #donaldtrump, #joebiden).**
+- **Ensure a substantial dataset for robust analysis.**
 
 ## Data Preprocessing
 
-### Column Selection:
+### Column Selection
 
-- **Review each column's relevance**
-- **Retain columns containing valuable information**
+- **Review each column's relevance.**
+- **Retain columns containing valuable information.**
 
-### Data Cleaning:
+### Data Cleaning
 
-- **Handle missing values and inconsistencies**
-- **Standardize country and state names**
-- **Replace placeholders for missing data**
+- **Handle missing values and inconsistencies.**
+- **Standardize country and state names.**
+- **Replace placeholders for missing data.**
 
-### Text Preprocessing:
+### Text Preprocessing
 
-- **Remove stop words and punctuation**
-- **Expand contractions (e.g., "can't" to "cannot")**
-- **Handle negations by replacing words with antonyms**
-- **Convert various text cases to standard format**
+- **Remove stop words and punctuation.**
+- **Expand contractions (e.g., "can't" to "cannot").**
+- **Handle negations by replacing words with antonyms.**
+- **Convert various text cases to standard format.**
 
 ## Bot Detection
 
-### Account Age Analysis:
+### Account Age Analysis
 
-- **Plot user join dates relative to the election**
-- **Identify accounts created close to the election**
+- **Plot user join dates relative to the election.**
+- **Identify accounts created close to the election.**
 
-### Engagement Metrics:
+### Engagement Metrics
 
-- **Consider factors like follower count**
-- **Filter out low-engagement accounts**
+- **Consider factors like follower count.**
+- **Filter out low-engagement accounts.**
 
 ## Data Filtering
 
-### Geographic Focus:
+### Geographic Focus
 
-- **Target U.S.-based tweets for election relevance**
+- **Target U.S.-based tweets for election relevance.**
 
-### Platform Verification:
+### Platform Verification
 
-- **Select tweets from official Twitter apps**
-- **Ensure data integrity**
+- **Select tweets from official Twitter apps.**
+- **Ensure data integrity.**
 
 ## Sentiment Analysis
 
-### Tool Selection:
+### Tool Selection
 
-- **Use NLTK's VADER for sentiment scoring**
+- **Use NLTK's VADER for sentiment scoring.**
 
-### Text Preparation:
+### Text Preparation
 
-- **Apply preprocessed text to the model**
+- **Apply preprocessed text to the model.**
 
-### Sentiment Classification:
+### Sentiment Classification
 
-- **Categorize tweets as positive, negative, or neutral**
+- **Categorize tweets as positive, negative, or neutral.**
 
 ## User-Level Analysis
 
-### Aggregate Sentiment:
+### Aggregate Sentiment
 
-- **Calculate average sentiment per user**
+- **Calculate average sentiment per user.**
 
-### Vote Prediction:
+### Vote Prediction
 
-- **Assign likely votes based on sentiment thresholds**
+- **Assign likely votes based on sentiment thresholds.**
 
 ## State-wise Analysis
 
-### Geographic Mapping:
+### Geographic Mapping
 
-- **Link users to their respective states**
+- **Link users to their respective states.**
 
-### Regional Sentiment:
+### Regional Sentiment
 
-- **Aggregate sentiment by state**
-- **Visualize state-level preferences**
+- **Aggregate sentiment by state.**
+- **Visualize state-level preferences.**
 
 ## Data Visualization
 
-### Distribution Charts:
+### Distribution Charts
 
-- **Use appropriate charts (e.g., bar charts for many categories)**
-- **Show tweet distribution by country, platform**
+- **Use appropriate charts (e.g., bar charts for many categories).**
+- **Show tweet distribution by country, platform.**
 
-### Time Series:
+### Time Series
 
-- **Plot user join dates over time**
+- **Plot user join dates over time.**
 
-### Word Clouds:
+### Word Clouds
 
-- **Generate pre- and post-processing clouds**
-- **Highlight key terms**
+- **Generate pre- and post-processing clouds.**
+- **Highlight key terms.**
 
-### Geospatial Plots:
+### Geospatial Plots
 
-- **Map tweets geographically**
+- **Map tweets geographically.**
 
-### Sentiment Visuals:
+### Sentiment Visuals
 
-- **Create pie charts for overall sentiment**
-- **Use bar graphs for state-wise sentiment**
+- **Create pie charts for overall sentiment.**
+- **Use bar graphs for state-wise sentiment.**
 
 ## Additional Analyses
 
-### Tweet Content:
+### Tweet Content
 
-- **Identify common words and hashtags**
+- **Identify common words and hashtags.**
 
-### User Engagement:
+### User Engagement
 
-- **Analyze likes, retweets, and replies**
+- **Analyze likes, retweets, and replies.**
 
 ## Iterative Improvement
 
-- **Review and refine each step**
-- **Consider more sophisticated bot detection**
-- **Enhance data integrity measures**
+- **Review and refine each step.**
+- **Consider more sophisticated bot detection.**
+- **Enhance data integrity measures.**
 
 ## Acknowledgments
 
-- **NLTK and VADER for sentiment analysis**
-- **Twitter API for data access**
+- **NLTK and VADER for sentiment analysis.**
+- **Twitter API for data access.**
 
 This methodology combines data science, natural language processing, and geospatial analysis to derive insights from social media sentiment, offering a unique perspective on electoral predictions.
